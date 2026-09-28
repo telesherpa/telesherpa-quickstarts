@@ -1,0 +1,2 @@
+# TODO(Herbert): Paketname pruefen (autogen-ext-mcp bzw. Agent-Framework-Nachfolger)
+python-dotenv

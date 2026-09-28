@@ -1,0 +1,10 @@
+{
+  "name": "Telesherpa Quickstarts",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install -r langchain/requirements.txt -r crewai/requirements.txt -r llamaindex/requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
