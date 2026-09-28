@@ -19,11 +19,12 @@ strukturierte Bildablage, Formulare, Self-Provisioning, ...) siehe das Guide-Rep
 | [LlamaIndex](https://developers.llamaindex.ai/python/framework/module_guides/mcp/llamaindex_mcp/) | [`/llamaindex`](./llamaindex) | ⚠️ Skelett — Bearer-Auth-Header-Unterstützung von `BasicMCPClient` noch zu verifizieren |
 
 Zwei der vier Beispiele (LangChain, CrewAI) nutzen ein Auth-Pattern, das in der
-öffentlichen Dokumentation der jeweiligen Bibliothek eindeutig belegt ist. Bei den
-anderen beiden zeigt die öffentliche Doku keinen dokumentierten Weg, einen
-Authorization-Header an einen Remote-MCP-Server zu übergeben — das muss vor dem
-Veröffentlichen gegen den echten Telesherpa-Server getestet werden, siehe TODOs in
-den jeweiligen Skripten.
+öffentlichen Dokumentation der jeweiligen Bibliothek eindeutig belegt und gegen den
+echten Telesherpa-Server getestet ist. Bei den anderen beiden zeigt die öffentliche
+Doku keinen dokumentierten Weg, einen Authorization-Header an einen Remote-MCP-Server
+zu übergeben — sie sind deshalb bewusst als lauffähige **Skelette** veröffentlicht, die
+beim Aufruf eine klare Fehlermeldung statt eines ungetesteten Beispiels liefern. Siehe
+die Status-Hinweise in den jeweiligen Skripten.
 
 ## Voraussetzungen
 

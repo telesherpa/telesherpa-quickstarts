@@ -8,10 +8,10 @@ dokumentiert, aber NICHT mit Bearer-Token-Auth gegen einen Remote-HTTP-Server
 (die oeffentlichen Beispiele zeigen nur StdioServerParameters gegen lokale
 MCP-Server).
 
-TODO(Herbert): Vor dem Merge:
+Offen (Stand der Veroeffentlichung):
   1. Pruefen, welche Server-Parameter-Klasse HTTP + Auth-Header unterstuetzt.
   2. Gegen mcp.telesherpa.com testen.
-  3. Diese Warnung entfernen.
+  3. Diese Warnung entfernen, sobald das Skript real laeuft.
 """
 
 import os
@@ -27,8 +27,8 @@ MCP_URL = os.environ.get("TELESHERPA_MCP_URL", "https://mcp.telesherpa.com/mcp")
 def main() -> None:
     raise NotImplementedError(
         "Auth-Pattern fuer Microsoft Agent Framework gegen einen Streamable-HTTP "
-        "MCP-Server mit Bearer-Token ist noch nicht verifiziert. Siehe README.md "
-        "fuer die offenen TODOs, bevor dieses Beispiel live geschaltet wird."
+        "MCP-Server mit Bearer-Token ist nicht verifiziert. Siehe README.md; "
+        "dieses Beispiel ist bewusst als Skelett veroeffentlicht."
     )
 
 

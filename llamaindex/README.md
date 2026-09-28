@@ -4,7 +4,7 @@
 `BasicMCPClient` für Streamable-HTTP- und SSE-Verbindungen, aber die öffentliche
 Doku zeigt keinen dokumentierten `headers`-Parameter für Bearer-Token-Auth.
 
-**TODO vor Veröffentlichung:**
+**Noch offen (dieses Beispiel ist bewusst als Skelett veröffentlicht):**
 1. Prüfen, ob `BasicMCPClient` einen `headers`/`auth`-Parameter akzeptiert
    (ggf. im Quellcode statt nur in der Doku nachsehen).
 2. Falls nicht: klären, ob sich ein `httpx.AsyncClient` mit Auth-Header

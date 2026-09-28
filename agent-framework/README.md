@@ -9,7 +9,7 @@ einen `Authorization`-Bearer-Header an einen Streamable-HTTP-MCP-Server zu
 übergeben (die dokumentierten Beispiele nutzen `StdioServerParameters`, keinen
 Remote-HTTP-Server mit Auth).
 
-**TODO vor Veröffentlichung:**
+**Noch offen (dieses Beispiel ist bewusst als Skelett veröffentlicht):**
 1. Prüfen, ob das Agent-Framework-Äquivalent von `SseServerParams`/`HttpServerParams`
    einen `headers`-Parameter unterstützt (analog zu LangChain/CrewAI).
 2. Falls nicht dokumentiert: gegen den echten Telesherpa-Server testen, ob ein
