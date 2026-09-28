@@ -6,6 +6,8 @@ mit dem Telesherpa MCP-Server.
 
 ## Setup
 
+> Getestet mit Python 3.12 und 3.14.
+
 ```bash
 cp .env.example .env   # TELESHERPA_TOKEN und OPENAI_API_KEY eintragen
 pip install -r requirements.txt

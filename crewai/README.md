@@ -6,6 +6,10 @@ MCP-Server.
 
 ## Setup
 
+> **Python-Version:** CrewAI verlangt `>=3.10,<3.14`. Mit Python 3.14 bricht
+> `pip install -r requirements.txt` ab (keine Wheels für `tiktoken`/`regex`).
+> Getestet mit Python 3.12.
+
 ```bash
 cp .env.example .env   # TELESHERPA_TOKEN und OPENAI_API_KEY eintragen
 pip install -r requirements.txt

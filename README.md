@@ -31,7 +31,7 @@ Alle Beispiele brauchen:
 - Einen Telesherpa-Account bzw. eine Demo-Scope mit Zugriffstoken (`TELESHERPA_TOKEN`),
   siehe [`auth-token-lifecycle.md`](https://github.com/telesherpa/skill-telesherpa-com/blob/main/telesherpa-ontology-platform/references/features/auth-token-lifecycle.md)
   im Guide-Repo für den Login-/Token-Flow
-- Python 3.10+
+- Python 3.10–3.13 (CrewAI unterstützt 3.14 noch nicht: `requires-python <3.14`)
 - Einen LLM-API-Key für das jeweilige Framework (z.B. `OPENAI_API_KEY`)
 
 ## Schnellstart in der Cloud
